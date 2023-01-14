@@ -1,0 +1,26 @@
+.DS_Store
+.idea/
+.env
+node_modules
+package-lock.json
+cache
+tsconfig.tsbuildinfo
+/dist/
+yarn-error.log
+*-debug.log
+
+/src/config/
+/hasura-schema/config.yaml
+/env/.current_project
+/env/docker/
+/bin/cli-hasura-*
+/bin/docker/wait
+
+# yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

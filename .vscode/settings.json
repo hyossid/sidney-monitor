@@ -1,0 +1,31 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "files.insertFinalNewline": true,
+  "cSpell.words": [
+    "alexgo",
+    "apower",
+    "autoalex",
+    "codegen",
+    "CODEOWNERS",
+    "esbuild",
+    "esno",
+    "HASURA",
+    "memoizee",
+    "microblock",
+    "mocknet",
+    "Parens",
+    "rebalancing",
+    "wban",
+    "wstx",
+    "yqueue"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

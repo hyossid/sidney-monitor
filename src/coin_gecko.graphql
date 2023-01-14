@@ -1,0 +1,10 @@
+query get_coingecko_data($token: String!) {
+  laplace_coin_gecko(where: { token: { _eq: $token } }) {
+    token
+    avg_price_usd
+    coin_gecko_id
+    prices_market
+    timestamp
+  }
+}
+
